@@ -6,7 +6,7 @@ function decimalToBinary(num) {
 		s=s+d;
 		num=Math.floor(num/2);
 	}
-	let rs=0;
+	let rs="";
 
 	for(let i=s.length-1;i>=0;i--){
 		rs=rs+s[i];
